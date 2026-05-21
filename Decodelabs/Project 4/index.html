@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Form Validation </h1>
+
+        <form id="myForm">
+
+            <input type="text" id="name" placeholder="Enter Name">
+            <small class="error" id="nameError"></small>
+
+            <input type="email" id="email" placeholder="Enter Email">
+            <small class="error" id="emailError"></small>
+
+            <input type="password" id="password" placeholder="Enter Password">
+            <small class="error" id="passwordError"></small>
+
+            <button type="submit">Submit</button>
+
+            <p id="successMsg"></p>
+
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

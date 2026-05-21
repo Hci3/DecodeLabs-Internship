@@ -1,0 +1,22 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    padding: 20px;
+    background: white;
+    color: black;
+}
+
+.dark {
+    background: black;
+    color: white;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.section {
+    margin-top: 30px;
+}
